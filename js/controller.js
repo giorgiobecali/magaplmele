@@ -160,7 +160,7 @@ function drawEggs() {
   document.getElementById("eggs").innerHTML = "";
   for (var i = 0; i < eggs.length; i++) {
     document.getElementById("eggs").innerHTML +=
-      "<img src='images/egg-w.svg' class='egg' style='left:" +
+      "<img src='../Images/egg-w.svg' class='egg' style='left:" +
       eggs[i].left +
       "px; top:" +
       eggs[i].top +
@@ -229,7 +229,7 @@ function drawBullets() {
   document.getElementById("bullets").innerHTML = "";
   for (var i = 0; i < bullets.length; i++) {
     document.getElementById("bullets").innerHTML +=
-      "<img src='images/fire-" +
+      "<img src='../Images/fire-" +
       bulletColor +
       ".svg' class='bullet' id='fire' style='left:" +
       bullets[i].left +
@@ -259,7 +259,7 @@ function drawEnemies() {
   }
   for (var i = 0; i < enemies.length; i++) {
     document.getElementById("chickens").innerHTML +=
-      '<img src="images/c' +
+      '<img src="../Images/c' +
       chickenColor +
       '.png" class="' +
       enemies[i].type +
@@ -411,7 +411,7 @@ function drawGift() {
   document.getElementById("gifts").innerHTML = "";
   for (var i = 0; i < gifts.length; i++) {
     document.getElementById("gifts").innerHTML +=
-      "<img src='images/food-" +
+      "<img src='../Images/food-" +
       level +
       ".svg' alt='' class='food-" +
       level +
