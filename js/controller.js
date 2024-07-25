@@ -395,7 +395,7 @@ function explodeObject(object) {
     width = $(".monster").width();
   }
   document.getElementById("explosions").innerHTML +=
-    '<img src="../Images/exp.gif" class="explosion" alt=""  style="left:' +
+    '<img src="./Images/exp.gif" class="explosion" alt=""  style="left:' +
     object.left +
     "px; top:" +
     object.top +
