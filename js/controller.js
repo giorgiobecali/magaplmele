@@ -541,7 +541,7 @@ function levelTwo() {
   showMessage("Excellent Work", "", 1500);
   setTimeout(() => {
     showMessage("Watch out", "Wave 2", 2500);
-    $("body").css("background-image", "url(images/bg-3.jpg)");
+    $("body").css("background-image", "url(../Images/bg-3.jpg)");
     lives = 3;
     drawLives();
     setTimeout(() => {
